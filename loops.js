@@ -21,9 +21,8 @@ function whileLoop(n) {
 
 function doWhileLoop(array) {
   do {
-    console.log('doo-bee-doo-bee-doo')
-  } while (array.length > 0) {
     array.pop()
+  } while (array.length > 0) {
   }
-  return 
-}
+  return array
+ }
